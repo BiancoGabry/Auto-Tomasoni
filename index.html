@@ -38,6 +38,32 @@
         <div class="arrow right">&#10095;</div>
     </div>
 
+    <div class="absolute inset-x-0 bottom-0 text-center p-3 z-30">
+        <div class="flex flex-col gap-5 place-content-center">
+            <div class="flex place-content-center rounded-lg">
+                <div class="px-2 py-1 rounded-lg bg-white">
+                    <h2 class="font-semibold ">Scopri di più</h2>
+                </div>
+            </div>
+            
+            <div class="flex place-content-center">
+                <div class="animate-bounce bg-white transition-all p-3 rounded-full shadow-md">
+                    <a href="#chi-siamo">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="size-8 stroke-red-600 stroke-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
     <div class="content flex flex-col gap-8 p-8">
         <section id="chi-siamo">
             <h2 class="text-4xl font-semibold mb-3">Chi Siamo</h2>
@@ -84,7 +110,7 @@
         <section id="auto">
             <h2 class="text-4xl font-bold mb-4">Auto in vendita</h2>
             <div class="grid grid-cols-1 md:grid-cols-3">
-                <div class="autovendita">
+                <div class="h-fit autovendita">
                     <h3 class="text-2xl font-bold">Renault Clio</h3>
                     <h3 class="font-semibold mb-5">Mk.1 16v</h3>
                     <img class="immaginevendita mb-5" src="./assets/images/3.jpg" alt="Renault Clio Mk.1 16v">
@@ -104,7 +130,7 @@
                     </div>
 
                 </div>
-                <div class="autovendita">
+                <div class="h-fit autovendita">
                     <h3 class="text-2xl font-bold">Subaru 555</h3>
                     <h3 class="font-semibold mb-5">Edizione 555</h3>
                     <img class="immaginevendita mb-5" src="./assets/images/1.jpg" alt="Renault Clio Mk.1 16v">
@@ -124,7 +150,7 @@
                     </div>
 
                 </div>
-                <div class="autovendita">
+                <div class="h-fit autovendita">
                     <h3 class="text-2xl font-bold">Audi S4</h3>
                     <h3 class="font-semibold mb-5">Versione V8</h3>
                     <img class="immaginevendita mb-5" src="./assets/images/4.jpg" alt="Renault Clio Mk.1 16v">
@@ -147,8 +173,8 @@
             </div>
 
             <div class="centra-pulsante mt-10">
-                <button onclick="window.location.href='./vendita-auto.html';"
-                    class="pulsante text-center text-2xl">Vai alle altre macchine in vendita</button>
+                <button onclick="window.location.href='./vendita-auto.html';" class="pulsante text-center text-2xl">Vai
+                    alle altre macchine in vendita</button>
             </div>
 
         </section>
