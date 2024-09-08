@@ -75,6 +75,31 @@ document.querySelector('.arrow.left').addEventListener('mouseleave', startSlides
 // Inizializza lo slideshow
 initSlideshow();
 
+
+//Immagini macchine vendita
+function showImage(container, index) {
+    const images = container.querySelectorAll('img');
+    images.forEach((img, i) => {
+        img.style.display = i === index ? 'block' : 'none';
+    });
+}
+
+function prevImage(button) {
+    const container = button.parentElement;
+    let currentIndex = parseInt(container.getAttribute('data-current-index'));
+    currentIndex = (currentIndex === 0) ? container.querySelectorAll('img').length - 1 : currentIndex - 1;
+    container.setAttribute('data-current-index', currentIndex);
+    showImage(container, currentIndex);
+}
+
+function nextImage(button) {
+    const container = button.parentElement;
+    let currentIndex = parseInt(container.getAttribute('data-current-index'));
+    currentIndex = (currentIndex === container.querySelectorAll('img').length - 1) ? 0 : currentIndex + 1;
+    container.setAttribute('data-current-index', currentIndex);
+    showImage(container, currentIndex);
+}
+
 // Magic Island
 const header = document.querySelector('.header');
 

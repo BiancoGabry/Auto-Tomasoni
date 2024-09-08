@@ -57,6 +57,7 @@ body {
     background-position: center;
 }
 
+
 .discover-more {
     position: absolute;
     bottom: 20px;
@@ -190,12 +191,45 @@ body {
     transform: scale(1.05);
 }
 
-.immaginevendita{
+.immaginevendita {
     min-width: 100%;
     border-radius: 20px;
     object-fit: contain;
     background-size: cover;
     background-position: center;
+}
+
+.image-container {
+    position: relative;
+    min-width: 100%;
+    border-radius: 20px; 
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.image-container .prev, .image-container .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.image-container .prev {
+    left: 0;
+}
+
+.image-container .next {
+    right: 0;
 }
 
 /* Aggiungi uno stile al pulsante "Show more" */
