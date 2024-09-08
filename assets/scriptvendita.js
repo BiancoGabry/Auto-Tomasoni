@@ -36,24 +36,24 @@ anchorLinks.forEach((link) => {
 
 // Aggiungi un evento al pulsante "Show more"
 document.querySelectorAll('.show-more').forEach(button => {
-    button.addEventListener('click', () => {
-        console.log("click");
-        const informazioniExtra = button.nextElementSibling;
-        if (informazioniExtra.style.display === 'none') {
-            informazioniExtra.style.display = 'block';
-            button.textContent = 'Mostra di meno';
-        } else {
-            informazioniExtra.style.display = 'none';
-            button.textContent = 'Mostra di più';
-        }
-    });
+  button.addEventListener('click', () => {
+    console.log("click");
+    const informazioniExtra = button.nextElementSibling;
+    if (informazioniExtra.style.display === 'none') {
+      informazioniExtra.style.display = 'block';
+      button.textContent = 'Mostra di meno';
+    } else {
+      informazioniExtra.style.display = 'none';
+      button.textContent = 'Mostra di più';
+    }
+  });
 });
 
 //Immagini macchine vendita
 function showImage(container, index) {
   const images = container.querySelectorAll('img');
   images.forEach((img, i) => {
-      img.style.display = i === index ? 'block' : 'none';
+    img.style.display = i === index ? 'block' : 'none';
   });
 }
 

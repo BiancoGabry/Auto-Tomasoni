@@ -104,11 +104,11 @@ function nextImage(button) {
 const header = document.querySelector('.header');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 100) { // or any other threshold value
-    header.classList.add('scrolled');
-  } else {
-    header.classList.remove('scrolled');
-  }
+    if (window.scrollY > 100) { // or any other threshold value
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
 });
 
 
@@ -118,22 +118,22 @@ const anchorLinks = document.querySelectorAll('a[href*="#"]');
 
 // Add an event listener to each anchor link
 anchorLinks.forEach((link) => {
-  link.addEventListener('click', (event) => {
-    // Get the target element (the section with the corresponding id)
-    const target = document.querySelector(link.getAttribute('href'));
+    link.addEventListener('click', (event) => {
+        // Get the target element (the section with the corresponding id)
+        const target = document.querySelector(link.getAttribute('href'));
 
-    // Calculate the offset (in this case, the height of the header + 20px)
-    const offset = document.querySelector('.header').offsetHeight + 20;
+        // Calculate the offset (in this case, the height of the header + 20px)
+        const offset = document.querySelector('.header').offsetHeight + 20;
 
-    // Scroll to the target element with the offset
-    window.scrollTo({
-      top: target.offsetTop - offset,
-      behavior: 'smooth',
+        // Scroll to the target element with the offset
+        window.scrollTo({
+            top: target.offsetTop - offset,
+            behavior: 'smooth',
+        });
+
+        // Prevent the default anchor link behavior
+        event.preventDefault();
     });
-
-    // Prevent the default anchor link behavior
-    event.preventDefault();
-  });
 });
 
 // Aggiungi un evento al pulsante "Show more"
