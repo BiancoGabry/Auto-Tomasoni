@@ -278,3 +278,38 @@ body {
     max-width: 1700px;
     margin: auto;
 }
+
+/* Menu Hamburger Icon Style */
+.menu-icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
+/* Menu nascosto per mobile */
+#menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    background-color: #dd240b;
+    padding: 10px;
+}
+
+/* Mostra il menu in mobile quando attivo */
+#menu.active {
+    display: flex;
+}
+
+/* Nasconde l'icona del menu su dispositivi più grandi */
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+    }
+}

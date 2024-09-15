@@ -11,14 +11,12 @@
 </head>
 
 <body>
-    <header class="header p-5 grid grid-cols-1 md:grid-cols-2 bg-[#dd240b] items-center">
-        <div class="flex place-content-center md:place-content-start">
-            <a href="index.html">
-                <img class="h-16 ml-2 logo-stondato" src="./assets/images/logo.jpg" alt="AutoTomasoni">
-            </a>
-        </div>
-        <nav
-            class="mt-4 md:mt-0 flex flex-row gap-5 text-slate-100 font-semibold md:place-content-end place-content-between">
+    <header class="header p-5 flex justify-between items-center bg-[#dd240b]">
+        <a href="index.html">
+            <img class="h-16 ml-2 logo-stondato" src="./assets/images/logo.jpg" alt="AutoTomasoni">
+        </a>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav id="menu" class="hidden md:flex flex-row gap-5 text-slate-100 font-semibold">
             <a class="navboxes md:text-2xl" href="#chi-siamo">Chi Siamo</a>
             <a class="navboxes md:text-2xl" href="#servizi">Servizi</a>
             <a class="navboxes md:text-2xl" href="#auto">Auto</a>
@@ -26,6 +24,7 @@
             <a class="navboxes md:text-2xl" href="#contatti">Contatti</a>
         </nav>
     </header>
+    
 
     <div class="mt-36 md:mt-24">
         <div class="slideshow-container">

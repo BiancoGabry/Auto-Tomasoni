@@ -136,6 +136,17 @@ anchorLinks.forEach((link) => {
     });
 });
 
+//menu hamburger
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'flex';
+    }
+}
+
+
 // Aggiungi un evento al pulsante "Show more"
 document.querySelectorAll('.show-more').forEach(button => {
     button.addEventListener('click', () => {
