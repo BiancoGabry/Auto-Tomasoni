@@ -298,7 +298,7 @@ body {
 }
 
 /* Nasconde l'icona del menu su dispositivi più grandi */
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     .menu-icon {
         display: none;
     }
