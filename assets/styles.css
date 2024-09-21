@@ -238,6 +238,7 @@ body {
     cursor: pointer;
     margin: 0 auto;
     display: block;
+    transition: background-color 0.3s;
 }
 
 .show-more:hover {
