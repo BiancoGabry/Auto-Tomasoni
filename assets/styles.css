@@ -60,7 +60,7 @@ body {
     transform: translateX(-50%);
     text-align: center;
     font-size: 1.2em;
-    color: #db230a;
+    color: #0f1d75;
     cursor: pointer;
 }
 
@@ -70,7 +70,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     font-size: 3em;
-    color: #db230a;
+    color: #0f1d75;
     /*background-color: rgba(0, 0, 0, 0.5);*/
     padding: 10px;
     cursor: pointer;
@@ -141,7 +141,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #db230a;
+    background-color: #0f1d75;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -153,7 +153,7 @@ body {
     right: 20px;
     width: calc(100% - 40px);
     padding: 10px;
-    background-color: #db230a;
+    background-color: #0f1d75;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     border-radius: 20px;
@@ -230,7 +230,7 @@ body {
 
 /* Aggiungi uno stile al pulsante "Show more" */
 .show-more {
-    background-color: #db230a;
+    background-color: #0f1d75;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -241,7 +241,7 @@ body {
 }
 
 .show-more:hover {
-    background-color: #b41e0a;
+    background-color: #263ab9;
 }
 
 /* Aggiungi uno stile alle informazioni extra */
@@ -253,7 +253,7 @@ body {
 }
 
 .pulsante {
-    background-color: #db230a;
+    background-color: #0f1d75;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -264,7 +264,7 @@ body {
 }
 
 .pulsante:hover {
-    background-color: #b41e0a;
+    background-color: #263ab9;
 }
 
 
@@ -289,7 +289,7 @@ body {
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    background-color: #dd240b;
+    background-color: #0f1d75;
     padding: 10px;
 }
 
