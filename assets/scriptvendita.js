@@ -72,3 +72,10 @@ function nextImage(button) {
   container.setAttribute('data-current-index', currentIndex);
   showImage(container, currentIndex);
 }
+
+
+//menu hamburger
+function toggleMenu() {
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('active');
+}
