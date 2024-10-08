@@ -20,7 +20,6 @@ body {
 
 .navboxes {
     transition: color 0.3s;
-    padding-right: 30px;
 }
 
 .navboxes:hover {
