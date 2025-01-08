@@ -24,7 +24,7 @@ body {
 
 .navboxes:hover {
     /*     background-color: #00334b; */
-    color: #ffe600;
+    color: #686868
 }
 
 /* Stile dello slideshow */
@@ -59,7 +59,7 @@ body {
     transform: translateX(-50%);
     text-align: center;
     font-size: 1.2em;
-    color: #0f1d75;
+    color: #1d1d1d;
     cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ body {
 /* Pannellini */
 .service {
     border-radius: 8px;
-    background-color: #445aeb5e;
+    background-color: #b2b2b2;
     padding: 20px;
     margin: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.308);
@@ -229,7 +229,7 @@ body {
 
 /* Aggiungi uno stile al pulsante "Show more" */
 .show-more {
-    background-color: #0f1d75;
+    background-color: #1d1d1d;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -241,7 +241,7 @@ body {
 }
 
 .show-more:hover {
-    background-color: #263ab9;
+    background-color: #686868;
 }
 
 /* Aggiungi uno stile alle informazioni extra */
@@ -253,7 +253,7 @@ body {
 }
 
 .pulsante {
-    background-color: #0f1d75;
+    background-color: #1d1d1d;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -264,7 +264,7 @@ body {
 }
 
 .pulsante:hover {
-    background-color: #263ab9;
+    background-color: #686868;
 }
 
 
