@@ -45,7 +45,7 @@ body {
 #loading-logo {
     width: 250px;
     height: auto;
-    animation: expandAndFade 2s ease-in-out forwards;
+    animation: expandAndFade 2.5s ease-in-out forwards;
 }
 
 /* Animazione di espansione e dissolvenza */

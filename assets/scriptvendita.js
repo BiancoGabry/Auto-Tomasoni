@@ -87,5 +87,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // Nascondi il caricamento dopo l'animazione
   setTimeout(() => {
       loadingScreen.style.display = 'none';
-  }, 2000); // La durata deve corrispondere a quella dell'animazione (2s)
+  }, 2500); // La durata deve corrispondere a quella dell'animazione (2s)
 });
