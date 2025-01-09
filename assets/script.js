@@ -157,3 +157,14 @@ document.querySelectorAll('.show-more').forEach(button => {
         }
     });
 });
+
+
+// schermata di Caricamento
+document.addEventListener("DOMContentLoaded", () => {
+    const loadingScreen = document.getElementById("loading-screen");
+    
+    // Nascondi il caricamento dopo l'animazione
+    setTimeout(() => {
+        loadingScreen.style.display = 'none';
+    }, 2000); // La durata deve corrispondere a quella dell'animazione (2s)
+});
